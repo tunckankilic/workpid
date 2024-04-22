@@ -1,0 +1,14 @@
+export '../modules/home/bindings/home_binding.dart';
+export '../modules/home/views/home_view.dart';
+export '../modules/likes/bindings/likes_binding.dart';
+export '../modules/likes/views/likes_view.dart';
+export '../modules/login/bindings/login_binding.dart';
+export '../modules/login/views/login_view.dart';
+export '../modules/profile/bindings/profile_binding.dart';
+export '../modules/profile/views/profile_view.dart';
+export '../modules/register/bindings/register_binding.dart';
+export '../modules/register/views/register_view.dart';
+export '../modules/splash/bindings/splash_binding.dart';
+export '../modules/splash/views/splash_view.dart';
+export '../modules/onboarding/bindings/onboarding_binding.dart';
+export '../modules/onboarding/views/onboarding_view.dart';
