@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
+import 'package:workpid/app/routes/app_pages.dart';
 import 'package:workpid/app/routes/routes.dart';
 import './firebase_options.dart';
 import 'package:firebase_core/firebase_core.dart';
@@ -23,11 +24,12 @@ class MyApp extends StatelessWidget {
       minTextAdapt: true,
       builder: (context, child) {
         return GetMaterialApp(
-            debugShowCheckedModeBanner: false,
-            theme: ThemeData.dark(),
-            title: 'Finderex',
-            home: SplashView(),
-            initialBinding: SplashBinding());
+          debugShowCheckedModeBanner: false,
+          theme: ThemeData.dark(),
+          title: 'Finderex',
+          initialRoute: AppPages.INITIAL, // Define the initial route
+          getPages: AppPages.routes, // Use your routes configuration
+        );
       },
     );
   }

@@ -41,10 +41,13 @@ dependencies:
   flutter_svg: ^2.0.10+1
   get: ^4.6.5
   get_cli: ^1.8.1
+  google_sign_in: ^6.2.1
   http: ^1.0.0
   image_picker: ^1.0.3
   path_provider: ^2.1.0
   permission_handler: ^10.4.3
+  sign_in_with_apple: ^6.1.0
+  step_progress_indicator: ^1.0.2
   url_launcher: ^6.1.12
 
 dev_dependencies:
